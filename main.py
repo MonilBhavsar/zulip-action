@@ -15,7 +15,7 @@ def main():
                'to': ['monilbhavsar.england99@gmail.com'],
                'content': 'Hello'}
     result = client.send_message(request)
-    print result
+    print(result)
 
 
 if __name__ == '__main__':
