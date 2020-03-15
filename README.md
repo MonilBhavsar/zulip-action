@@ -12,3 +12,5 @@ A GitHub Action to send a private message to the specified user generally a repo
 ## Future Scope
 
 This action can keep the channel or stream up to date with the master branch and users(contributors) can know the status of their master branch.
+
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/MonilBhavsar/zulip-action/blob/master/LICENSE)
