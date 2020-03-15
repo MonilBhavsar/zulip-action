@@ -7,7 +7,7 @@ import zulip
 
 
 def main():
-    client = zulip.Client(config_file='~/zuliprc')
+    client = zulip.Client(config_file='zuliprc')
 
     # Send a private message
 
