@@ -1,0 +1,11 @@
+name: "Notify in the Zulip Channel"
+description: "Triggers a Message in the specified Zulip channel when master branch is manipulated by a PR"
+author: "MonilBhavsar"
+branding:
+  icon: message-square
+  color: green
+
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

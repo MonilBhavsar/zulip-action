@@ -1,0 +1,15 @@
+name: When a push occurs in the master branch, a zulip alarm is generated.
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: notify
+        id: notify
+        
+        # uses: leechungkyu/send-to-slack-action@master
+      
+      - name : Run
+        run: |
+          echo 'Run!'
