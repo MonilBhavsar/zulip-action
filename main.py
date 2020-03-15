@@ -6,10 +6,7 @@ import zulip
 def main():
     client = zulip.Client(config_file="~/zuliprc")
 	# Send a private message
-	request = {
-		"type": "private",
-		"to": ['monilbhavsar.england99@gmail.com'],
-		"content": "Hello!!"
+	request = { "type": "private","to": ['monilbhavsar.england99@gmail.com'],"content": "Hello!!"
 	}
 	result = client.send_message(request)
 	print(result)
