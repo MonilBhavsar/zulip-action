@@ -8,7 +8,7 @@ jobs:
       - name: notify
         id: notify
         
-        # uses: leechungkyu/send-to-slack-action@master
+        uses: MonilBhavsar/zulip-action@master
       
       - name : Run
         run: |
