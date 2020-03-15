@@ -1,4 +1,4 @@
 [api]
-email=monilbhavsar.england99@gmail.com
-key=WOgiMXM0FUTzLDTpbdEW7BKFaHUZxPzA
-site=https://monil.zulipchat.com
+email=<Your Email ID Here>
+key=<Your API KEY Here>
+site=<Your ZULIP Workspace URL Here>

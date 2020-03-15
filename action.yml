@@ -1,5 +1,5 @@
-name: "Notify in the Zulip Channel"
-description: "Triggers a Message in the specified Zulip channel when master branch is manipulated by a PR"
+name: "Send Private Message on Zulip"
+description: "Triggers a Private Message to the specified Zulip users when code is pushed in the master branch"
 author: "MonilBhavsar"
 branding:
   icon: message-square

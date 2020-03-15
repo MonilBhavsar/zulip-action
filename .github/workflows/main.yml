@@ -1,4 +1,4 @@
-name: When a push occurs in the master branch, a zulip alarm is generated.
+name: When a push occurs in the master branch, a private message is sent on the zulip.
 on: [push]
 jobs:
   build:

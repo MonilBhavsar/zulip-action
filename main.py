@@ -12,7 +12,7 @@ def main():
     # Send a private message
 
     request = {'type': 'private',
-               'to': ['monilbhavsar.england99@gmail.com'],
+               'to': ['<EMAIL ID HERE>'],
                'content': 'Message From Github! Push Event is triggered in the master branch  '}
     result = client.send_message(request)
     print(result)
